@@ -34,8 +34,8 @@ STATICFILES_STORAGE = "config.settings.storages.staticfiles"
 ```
 3. create .env file and add AWS params (we need create IAM user and S3 bucket first)
 ```
-ACCESS_KEY_ID=ACCESS_KEY_ID
-SECRET_ACCESS_KEY=SECRET_ACCESS_KEY
+AWS_ACCESS_KEY_ID=your IAM user access key
+AWS_SECRET_ACCESS_KEY=your IAM user secret key
 S3_REGION=S3_REGION
 BUCKET_NAME=BUCKET_NAME
 ```
